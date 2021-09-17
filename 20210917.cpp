@@ -83,11 +83,97 @@ int main()
 
 	return 0;*/
 
-	int A = 65;
+	/*int A = 65;
 	char C = A;
 	
 	cout << C << endl;
 	
-	return 0;
+	return 0;*/
+
+
+	//배열 만들기 
+	//A 0 1 2 3 4 5 6 7 8 9
+	// [][][][][][][][][][]
+
+	//a[0] = 1;
+	//a[1] = 2;
+	//a[2] = 3;
+	//a[3] = 4;
+	//a[4] = 5;
+	//a[5] = 6;
+	//a[6] = 7;
+	//a[7] = 8;
+	//a[8] = 9;
+	//a[9] = 10;
+
+
+
+	/*int a[10];
+
+	int i = 0;
+	for (i = 0; i < 10; i = i+1)
+	{
+		a[i] = i+1;
+	
+		cout << a[i] << endl;
+	
+		return 0;
+
+	}*/
+
+
+	//1~100까지의 합. 반복문
+	//for
+	//배열 반복
+	//반복 횟수(시험문제)
+	
+	/*int total = 0;
+
+	for (int i = 1; i <= 100; i++ )
+	{
+		total = total + i;
+	}
+
+	cout << total << endl;
+
+	return 0;*/
+
+	/*for (int i = 1; i <= 5; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+
+	}*/
+
+	/*int Max = 0;
+
+	cin >> Max;
+
+	for (int i = 1; i <= Max; i++)
+	{
+		for (int j = 1; j <= Max-i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+
+	}*/
+
+	int Max = 0;
+
+	cin >> Max;
+
+	for (int i = 1; i <= Max; i++)
+	{
+		for (int j = 0; j <= Max - i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+
+	}
 
 }
